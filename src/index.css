@@ -190,6 +190,13 @@
     }
 }
 
+@layer components{
+    .icon-hover{
+        @apply hover:text-[#ffc107]/80
+    }
+}
+
+
 .ant-input::placeholder {
     color: #999; /* Change the color to your desired color */
     
