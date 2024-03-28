@@ -1,13 +1,203 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
+
+.palanquin-thin {
+    font-family: "Palanquin", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .palanquin-extralight {
+    font-family: "Palanquin", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .palanquin-light {
+    font-family: "Palanquin", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .palanquin-regular {
+    font-family: "Palanquin", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .palanquin-medium {
+    font-family: "Palanquin", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .palanquin-semibold {
+    font-family: "Palanquin", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .palanquin-bold {
+    font-family: "Palanquin", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+ /* Montserrat Normal Weights */
+.montserrat-thin {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.montserrat-extralight {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.montserrat-light {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.montserrat-regular {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat-medium {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.montserrat-semibold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.montserrat-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.montserrat-extrabold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.montserrat-black {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* Montserrat Italic Weights */
+.montserrat-thin-italic {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.montserrat-extralight-italic {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.montserrat-light-italic {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.montserrat-italic {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.montserrat-medium-italic {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.montserrat-semibold-italic {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.montserrat-bold-italic {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.montserrat-extrabold-italic {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.montserrat-black-italic {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.icon {
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
+    /* background-color: #1a1a1a; Adjust background color as needed */
+    color: #2b2b38; /* Adjust text color as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 14px; /* Adjust font size as needed */
+    position: absolute;
+    opacity: 0.5;
+    filter: grayscale(0);
+    user-select: none;
+  }
+
+  @media (max-width: 768px) {
+    .icon {
+        width: 40px; /* Adjust size as needed */
+        height: 40px; /* Adjust size as needed */
+        /* background-color: #1a1a1a; Adjust background color as needed */
+        opacity: 0.3;
+        filter: grayscale(0);
+        user-select: none;
+      }
+  }
+
+@layer components {
+    .heroButton{
+        @apply px-2 py-1 md:px-6  md:py-2 border border-[#242424] rounded-full uppercase text-sm tracking-widest text-gray-300 transition-all hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40
+    }
+}
+
+.ant-input::placeholder {
+    color: #999; /* Change the color to your desired color */
+    
+  }
+Link{
+    color: inherit;
+}
+
+#hero_tex{
+    color: red;
 }

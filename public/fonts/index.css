@@ -1,0 +1,63 @@
+/* @font-face {
+    font-family: "mons-regular";
+    src: 'Montserrat-Regular.ttf';
+}
+
+@font-face {
+    font-family: "mons-bold";
+    src: 'Montserrat-Bold.ttf';
+}
+
+
+@font-face {
+    font-family: "mons-light";
+    src: 'Montserrat-Light.ttf';
+}
+
+@font-face {
+    font-family: "planquin-light";
+    src: 'Palanquin-Light.ttf';
+}
+
+@font-face {
+    font-family: "planquin-bold";
+    src: 'Palanquin-Bold.ttf';
+}
+
+
+@font-face {
+    font-family: "planquin-regular";
+    src: 'Palanquin-Regular.ttf';
+} */
+
+
+
+@font-face {
+    font-family: "mons-regular";
+    src: url('/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "mons-bold";
+    src: url('/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "mons-light";
+    src: url('/Montserrat-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "planquin-light";
+    src: url('/Palanquin-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "planquin-bold";
+    src: url('/Palanquin-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "planquin-regular";
+    src: url('/Palanquin-Regular.ttf') format('truetype');
+}
