@@ -19,6 +19,7 @@ import tailwind from '../assets/images/tailwind-css.png';
 import javascript from '../assets/images/javascript.png';
 import hero_pic_png from '../assets/images/hero_pic.png';
 import hero_pic_jpg from '../assets/images/hero_pic.jpg';
+import screenShot from '../assets/images/screenshot.png';
 
 
 // Export statements
@@ -42,3 +43,4 @@ export const TailwindImg = tailwind;
 export const JavascriptImg = javascript;
 export const Hero_pic_png = hero_pic_png
 export const Hero_pic_jpg = hero_pic_jpg
+export const ScreenShot = screenShot

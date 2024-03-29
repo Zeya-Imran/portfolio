@@ -208,3 +208,74 @@ Link{
 #hero_tex{
     color: red;
 }
+
+.ex-box{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px 0 2px;
+
+  }
+  .ex-box h1{
+    font-size: 20px;
+    color: #ffc107;
+    font-weight: 900;
+    font-family: "Palanquin";
+  }
+
+  .ex-box p{
+    font-size: 18px;
+    color: #848484;
+    font-weight: 500;
+    font-family: "Palanquin"; 
+    letter-spacing: 1px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .ex-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .ex-box h1 {
+      font-size: 15px;
+      color: #ffc107;
+      font-weight: 700;
+      font-family: "Palanquin";
+    }
+  
+    .ex-box p {
+      font-size: 10px;
+      color: #848484;
+      font-weight: 700;
+      font-family: "Palanquin"; 
+    }
+  }
+
+.projects-box {
+    position: relative;
+    width: 100%;
+    overflow: hidden; 
+    height: 400px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  
+  .projects-box img {
+    width: 100%;
+    transition: all 1s ease-in-out; 
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+  
+  .projects-box:hover img {
+    object-position: bottom;
+  }
+  

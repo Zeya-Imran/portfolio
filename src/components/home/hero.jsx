@@ -43,7 +43,7 @@ const HeroSection = () => {
             >
               <button className="heroButton"><Link to="/">Home</Link></button>
               <button className="heroButton">Resume</button>
-              <button className="heroButton">Portfolio</button>
+              <button className="heroButton"><Link to="/portfolio">Portfolio</Link></button>
               <button className="heroButton"><Link to="/contact">Contact</Link></button>
             </motion.div>
           </div>
