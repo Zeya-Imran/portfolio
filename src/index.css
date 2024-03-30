@@ -201,13 +201,7 @@
     color: #999; /* Change the color to your desired color */
     
   }
-Link{
-    color: inherit;
-}
-
-#hero_tex{
-    color: red;
-}
+  
 
 .ex-box{
     display: flex;
@@ -262,7 +256,7 @@ Link{
     position: relative;
     width: 100%;
     overflow: hidden; 
-    height: 400px;
+    height: 350px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
   }
@@ -277,5 +271,109 @@ Link{
   
   .projects-box:hover img {
     object-position: bottom;
+    
   }
+ 
+  .projects-box-wraper:hover h1{
+    color: rgb(255, 193, 7);
+  }
+
+  .projects-box-wraper:hover p{
+    color: rgb(255, 193, 7,0.7);
+  }
+
+  .projects-box-wraper:hover FaExternalLinkAlt{
+    color: rgb(255, 193, 7)/80;
+  }
+  .projects-box-wraper:hover{
+    background: linear-gradient(120deg, rgba(15, 15, 15, 0.98) 0%, rgba(43, 43, 53, .98));
+  }
+
+/* 
+
+  * Recommendation code 
+
+*/
+
+.service-wraper{
+  padding: 20px;
+  background-color: #2b2b36;
   
+}
+.service-wraper h1{
+  font-size: larger;
+  color: #ddd;
+  font-weight: 600;
+  margin-bottom: 15px;
+
+}
+.service-wraper p{
+  font-size:14px;
+  color: #848484;
+  font-weight: 400;
+  text-shadow: #000000;
+  line-height: 22px;
+}
+
+
+.re-post{
+  color: slategray;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  font-size: small;
+}
+
+
+.arrow.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.re-avtar{
+  border: 2px solid slateblue;
+  object-fit: cover;
+}
+
+
+.re-main {
+  display: flex;
+  transition: transform 0.5s ease; /* Smooth transition for sliding effect */
+  transform: translateX(0); /* Initial transformation */
+}
+
+.re-main.next {
+  transform: translateX(-100%); /* Move content to the left */
+}
+
+.re-main.prev {
+  transform: translateX(100%); /* Move content to the right */
+}
+
+button {
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  color: rgb(255, 193, 7);; /* Darker shade on hover */
+}
+
+ 
+.service-wraper:hover h1{
+  color: rgb(255, 193, 7);
+}
+
+.service-wraper:hover h2{
+  color: #ddd;
+}
+
+.service-wraper:hover p{
+  color: rgb(255, 193, 7,0.7);
+}
+
+.re-avtar:hover{
+  border: 2px solid rgb(255, 193, 7,0.7);
+  object-fit: cover;
+}

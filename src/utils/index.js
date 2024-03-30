@@ -19,7 +19,20 @@ import tailwind from '../assets/images/tailwind-css.png';
 import javascript from '../assets/images/javascript.png';
 import hero_pic_png from '../assets/images/hero_pic.png';
 import hero_pic_jpg from '../assets/images/hero_pic.jpg';
-import screenShot from '../assets/images/screenshot.png';
+
+// projects section images
+import sportsuncle from '../assets/images/sportsuncle.png';
+import boxsedgreens from '../assets/images/boxsedgreens.png';
+import greenlanedelivery from '../assets/images/greenlanedelivery.png';
+import tripmore from '../assets/images/tripmore.png';
+import franchisedirect from '../assets/images/franchisedirect.png';
+import intermiles from '../assets/images/intermiles.png';
+// recommedation section images
+import saurav_pic from '../assets/images/saurav.jpeg';
+import ali_pic from '../assets/images/ali.jpeg';
+import ebaad_pic from '../assets/images/ebaad.jpeg';
+
+
 
 
 // Export statements
@@ -43,4 +56,16 @@ export const TailwindImg = tailwind;
 export const JavascriptImg = javascript;
 export const Hero_pic_png = hero_pic_png
 export const Hero_pic_jpg = hero_pic_jpg
-export const ScreenShot = screenShot
+
+// projects section images
+export const Sportsuncle = sportsuncle
+export const Boxsedgreens = boxsedgreens
+export const Tripmore = tripmore
+export const Greenlanedelivery = greenlanedelivery
+export const Franchisedirect = franchisedirect
+export const Intermiles = intermiles
+
+// recommedation section images
+export const Saurav_pic = saurav_pic
+export const Ali_pic = ali_pic
+export const Ebaad_pic = ebaad_pic
