@@ -160,8 +160,7 @@
 .icon {
     width: 80px; /* Adjust size as needed */
     height: 80px; /* Adjust size as needed */
-    /* background-color: #1a1a1a; Adjust background color as needed */
-    color: #2b2b38; /* Adjust text color as needed */
+    color: #f7f7f7; /* Adjust text color as needed */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,7 +168,6 @@
     font-size: 14px; /* Adjust font size as needed */
     position: absolute;
     opacity: 0.5;
-    filter: grayscale(0);
     user-select: none;
   }
 
@@ -267,19 +265,22 @@
     height: 100%;
     object-fit: cover;
     object-position: top;
+
   }
   
   .projects-box:hover img {
     object-position: bottom;
-    
+    transform: scale(1.2);
   }
  
   .projects-box-wraper:hover h1{
     color: rgb(255, 193, 7);
+    transition: .3s all ease-in;
   }
 
   .projects-box-wraper:hover p{
     color: rgb(255, 193, 7,0.7);
+    transition: .4s all ease-in;
   }
 
   .projects-box-wraper:hover FaExternalLinkAlt{
@@ -363,17 +364,37 @@ button:hover {
  
 .service-wraper:hover h1{
   color: rgb(255, 193, 7);
+  transition: .2s all ease-in;
 }
 
 .service-wraper:hover h2{
   color: #ddd;
+  transition: .3s all ease-in;
 }
 
 .service-wraper:hover p{
   color: rgb(255, 193, 7,0.7);
+  transition: .4s all ease-in;
 }
 
 .re-avtar:hover{
   border: 2px solid rgb(255, 193, 7,0.7);
   object-fit: cover;
+}
+
+/* 
+  Resume 
+*/
+.resume img{
+  background-color:transparent;
+  filter: grayscale(1);
+  color: #fff !important;
+  fill: #ffc107;
+  opacity: .5;
+}
+
+
+.resume:hover img{
+  filter: grayscale(0);
+  
 }

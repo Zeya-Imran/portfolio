@@ -17,8 +17,13 @@ import PHP from '../assets/images/php.png';
 import reactImg from '../assets/images/react.png';
 import tailwind from '../assets/images/tailwind-css.png';
 import javascript from '../assets/images/javascript.png';
+import visualstudio from '../assets/images/visualstudio.png'
+import backIcon from '../assets/images/back.png';
+import switch_arrow from '../assets/images/switch_arrow.svg';
+//hero images
 import hero_pic_png from '../assets/images/hero_pic.png';
 import hero_pic_jpg from '../assets/images/hero_pic.jpg';
+
 
 // projects section images
 import sportsuncle from '../assets/images/sportsuncle.png';
@@ -54,18 +59,24 @@ export const PHPImg = PHP;
 export const ReactImg = reactImg;
 export const TailwindImg = tailwind;
 export const JavascriptImg = javascript;
-export const Hero_pic_png = hero_pic_png
-export const Hero_pic_jpg = hero_pic_jpg
+export const Visualstudio = visualstudio;
+export const BackIcon = backIcon;
+export const Switch_arrow = switch_arrow;
+
+
+//hero images
+export const Hero_pic_png = hero_pic_png;
+export const Hero_pic_jpg = hero_pic_jpg;
 
 // projects section images
-export const Sportsuncle = sportsuncle
-export const Boxsedgreens = boxsedgreens
-export const Tripmore = tripmore
-export const Greenlanedelivery = greenlanedelivery
-export const Franchisedirect = franchisedirect
-export const Intermiles = intermiles
+export const Sportsuncle = sportsuncle;
+export const Boxsedgreens = boxsedgreens;
+export const Tripmore = tripmore;
+export const Greenlanedelivery = greenlanedelivery;
+export const Franchisedirect = franchisedirect;
+export const Intermiles = intermiles;
 
 // recommedation section images
-export const Saurav_pic = saurav_pic
-export const Ali_pic = ali_pic
-export const Ebaad_pic = ebaad_pic
+export const Saurav_pic = saurav_pic;
+export const Ali_pic = ali_pic;
+export const Ebaad_pic = ebaad_pic;

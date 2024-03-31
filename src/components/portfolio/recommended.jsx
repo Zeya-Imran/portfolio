@@ -3,7 +3,7 @@ import { recommendations } from "../../constants"
 import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 import { motion } from "framer-motion";
 import { fadeInAnimation } from '../../animations';
-
+import { FaArrowTurnDown } from "react-icons/fa6";
 const Recommendations = () => {
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -27,14 +27,23 @@ const Recommendations = () => {
 
     return (
         <section className="flex flex-col gap-y-4 overflow-hidden">
-            <motion.h1 className='text-2xl md:text-4xl text-[#ddd] palanquin-semibold tracking-wide'
-                initial={{ x: -160, opacity: 0 }}
-                whileInView={{ x: 0, opacity: 1 }}
-                transition={{ duration: 1, }}
-                viewport={{ once: true }}
+            <div className='flex items-end gap-5'>
+                <motion.h1 className='text-2xl md:text-4xl text-[#ddd] palanquin-semibold tracking-wide'
+                    initial={{ x: -160, opacity: 0 }}
+                    whileInView={{ x: 0, opacity: 1 }}
+                    transition={{ duration: 1, }}
+                    viewport={{ once: true }}
 
-            >Recommendations</motion.h1>
-
+                >Recommendations</motion.h1>
+                <motion.div
+                    initial={{ opacity: 0, x: -50, y: -8 }}
+                    whileInView={{ opacity: 1, x: 0, y: 0 }}
+                    transition={{ duration: 2.5, }}
+                    viewport={{ once: true }}
+                >
+                    <FaArrowTurnDown style={{ color: 'white', fontSize: '24px' }} />
+                </motion.div>
+            </div>
             <motion.div className="flex transition-transform duration-500 mt-4"
                 initial="hidden"
                 animate="visible"
@@ -69,7 +78,7 @@ const Recommendations = () => {
                                     viewport={{ once: true }}
                                     className="re-post"
                                 >
-                                        {items.post}
+                                    {items.post}
                                 </motion.h2>
                             </div>
 
@@ -79,7 +88,7 @@ const Recommendations = () => {
                 }
             </motion.div>
             <motion.div className="flex text-white justify-between items-center  mx-[5px]"
-                initial={{opacity: 0 }}
+                initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 1.5, }}
                 viewport={{ once: true }}

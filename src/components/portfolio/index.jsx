@@ -5,6 +5,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 import { motion } from 'framer-motion';
 import { fadeInAnimation } from '../../animations';
 import Recommendations from './recommended';
+import { FaArrowTurnDown } from "react-icons/fa6";
 
 const Portfolio = () => {
     return (
@@ -46,14 +47,24 @@ const Portfolio = () => {
                 </motion.div>
 
                 {/*   projects box  */}
-                <motion.h1 className='text-2xl md:text-4xl text-[#ddd] palanquin-semibold tracking-wide mb-5'
-                    initial={{ x: -60, opacity: 0 }}
-                    whileInView={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 1, }}
-                    viewport={{ once: true }}
-                >Projects</motion.h1>
+              <div className='flex items-end gap-5'>  
+                    <motion.h1 className='text-2xl md:text-4xl text-[#ddd] palanquin-semibold tracking-wide'
+                            initial={{ x: -60, opacity: 0 }}
+                            whileInView={{ x: 0, opacity: 1 }}
+                            transition={{ duration: 1, }}
+                            viewport={{ once: true }}
+                        >Projects</motion.h1>
+                    <motion.div
+                         initial={{ opacity: 0, x: -50, y: -12}}
+                         whileInView={{ opacity: 1,  x: 0, y: 0}}
+                         transition={{ duration: 2, }}
+                         viewport={{ once: true }}
+                    >
+                        <FaArrowTurnDown  style={{color: 'white', fontSize: '24px'}} />
+                    </motion.div>
+                </div>
 
-                <div className='text-[#848484] grid md:grid-cols-3 grid-cols-1 gap-x-8'>
+                <div className='text-[#848484] grid md:grid-cols-3 grid-cols-1 mt-5 gap-x-8'>
                     {
                         projects.map((item, i) => {
                             // console.log(item.url);
