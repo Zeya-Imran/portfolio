@@ -204,3 +204,93 @@ export const recommendations = [
         imgUrl: Images.postgresqlColor
     }
 ];
+
+export const devops = [
+    {
+        id: 1,
+        title: "iam",
+        imgUrl: Images.iamColor
+    },
+    {
+        id: 2,
+        title: "s3",
+        imgUrl: Images.s3Color
+    },
+    {
+        id: 3,
+        title: "aws",
+        imgUrl: Images.awsColor
+    },
+    {
+        id: 4,
+        title: "ec2",
+        imgUrl: Images.ec2Color
+    },
+    {
+        id: 5,
+        title: "docker",
+        imgUrl: Images.dockerColor
+    },
+    {
+        id: 6,
+        title: "kubernates",
+        imgUrl: Images.kubernatesColor
+    },
+    {
+        id: 7,
+        title: "cicd",
+        imgUrl: Images.cicdColor
+    },
+    {
+        id: 8,
+        title: "route-53",
+        imgUrl: Images.route53Color
+    }
+];
+
+export const version = [
+    {
+        id: 1,
+        title: "git",
+        imgUrl: Images.gitColor
+    },
+    {
+        id: 2,
+        title: "github",
+        imgUrl: Images.githubColor
+    },
+    {
+        id: 3,
+        title: "copilot",
+        imgUrl: Images.copilotColor
+    },
+    {
+        id: 4,
+        title: "bitbucket",
+        imgUrl: Images.bitbucketColor
+    }
+];
+
+
+export const managment = [
+    {
+        id: 1,
+        title: "jira",
+        imgUrl: Images.jiraColor
+    },
+    {
+        id: 2,
+        title: "slack",
+        imgUrl: Images.slackColor
+    },
+    {
+        id: 3,
+        title: "notion",
+        imgUrl: Images.notionColor
+    },
+    {
+        id: 4,
+        title: "asna",
+        imgUrl: Images.asanaColor
+    }
+];

@@ -1,5 +1,8 @@
 
-// Import statements from icon folder
+/*
+ - Export statements  from icon folder
+ - front-end
+*/
 import Html from '../assets/icons/html.png';
 import ant from '../assets/icons/ant.png';
 import antd from '../assets/icons/antd.png';
@@ -18,6 +21,8 @@ import swr from '../assets/icons/swr.png';
 import spring from '../assets/icons/spring.png';
 import hooks from '../assets/icons/hooks.png';
 import material from '../assets/icons/material.png';
+
+//backend
 import php from '../assets/icons/php.png';
 import nodeclr from '../assets/icons/node-js.png';
 import mongodb from '../assets/icons/mongodb.png';
@@ -27,12 +32,33 @@ import mysqlClr from '../assets/icons/mysql.png';
 import postgresqlclr from '../assets/icons/postgresql.png';
 import axiosclr from '../assets/icons/axios.png';
 
+//aws import
+import iam from '../assets/icons/iam.png';
+import s3 from '../assets/icons/s3.png';
+import route53 from '../assets/icons/53.png';
+import awsclr from '../assets/icons/aws.png';
+import dockerclr from '../assets/icons/docker.png';
+import cicd from '../assets/icons/cicd.png';
+import kubernates from '../assets/icons/Kubernetes.png';
+import ec2 from '../assets/icons/ec2.png';
+
+//version control
+import git from '../assets/icons/git.png';
+import github from '../assets/icons/github.png';
+import copilot from '../assets/icons/copilot.png';
+import bitbucket from '../assets/icons/bitbucket.png';
+
+//managment tools
+import jira from '../assets/icons/jira.png';
+import slack from '../assets/icons/slack.png';
+import asana from '../assets/icons/asana.png';
+import notion from '../assets/icons/notion.png';
 
 
 
 
 
-// Import statements
+// Import statements from images folder
 import HTML from '../assets/images/html.png';
 import CSS from '../assets/images/css.png';
 import JS from '../assets/images/js.png';
@@ -75,8 +101,10 @@ import ebaad_pic from '../assets/images/ebaad.jpeg';
 import bento1 from '../assets/images/bento-1.jpg';
 
 
-
-// Export statements 
+/*
+ - Export statements  from icon folder
+ - front-end
+*/
 export const HtmlColor = Html;
 export const antColor = ant;
 export const andColor = antd;
@@ -95,6 +123,8 @@ export const swrColor = swr;
 export const springColor = spring;
 export const hooksColor = hooks;
 export const materialColor = material
+
+//backend 
 export const phpColor = php;
 export const nodeColor = nodeclr;
 export const mongodbColor = mongodb;
@@ -104,10 +134,35 @@ export const mysqlColor = mysqlClr;
 export const postgresqlColor = postgresqlclr;
 export const axioslColor = axiosclr;
 
+//aws export
+export const ec2Color = ec2;
+export const kubernatesColor = kubernates;
+export const cicdColor = cicd;
+export const dockerColor = dockerclr;
+export const awsColor = awsclr;
+export const route53Color = route53;
+export const s3Color = s3;
+export const iamColor = iam;
+
+
+//version control
+export const gitColor = git;
+export const githubColor = github;
+export const copilotColor = copilot;
+export const bitbucketColor = bitbucket;
+
+//managment tools
+export const jiraColor = jira;
+export const slackColor = slack;
+export const notionColor = notion;
+export const asanaColor = asana;
 
 
 
-// Export statements
+/*
+ - Export statements  from images folder
+ - front-end
+*/
 export const HTMLImg = HTML;
 export const CSSImg = CSS;
 export const JSImg = JS;

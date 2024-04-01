@@ -3,7 +3,7 @@ import { UserOutlined, MailOutlined } from '@ant-design/icons'
 import LayoutSection from "../shared/layout";
 import { motion } from 'framer-motion';
 import { fadeInAnimation } from '../../animations';
-import { MobileOutlined, DownloadOutlined, GithubFilled, LinkedinFilled, TwitterCircleFilled } from '@ant-design/icons';
+import { MobileOutlined, GithubFilled, LinkedinFilled, TwitterCircleFilled } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 import { FaLocationDot } from "react-icons/fa6";
 
