@@ -77,3 +77,130 @@ export const recommendations = [
     }
    
  ]
+
+ export const frontend = [
+    {
+        id: 1,
+        title: "html",
+        imgUrl: Images.HtmlColor
+    },
+    {
+        id: 2,
+        title: "css",
+        imgUrl: Images.CSSColor
+    },
+    {
+        id: 3,
+        title: "bootstrap",
+        imgUrl: Images.bootstrapColor
+    },
+    {
+        id: 4,
+        title: "javascript",
+        imgUrl: Images.javascriptColor
+    },
+    {
+        id: 5,
+        title: "tailwind",
+        imgUrl: Images.tailwindCSSColor
+    },
+    {
+        id: 6,
+        title: "antd",
+        imgUrl: Images.andColor
+    },
+    {
+        id: 7,
+        title: "react",
+        imgUrl: Images.reactColor
+    },
+    {
+        id: 8,
+        title: "redux",
+        imgUrl: Images.reduxColor
+    },
+    {
+        id: 9,
+        title: "f-motion",
+        imgUrl: Images.framerColor
+    },
+    {
+        id: 10,
+        title: "shadcn",
+        imgUrl: Images.shadcnColor
+    },
+    {
+        id: 11,
+        title: "r-query",
+        imgUrl: Images.reactQueryColor
+    },
+    {
+        id: 12,
+        title: "threejs",
+        imgUrl: Images.threeColor
+    },
+    {
+        id: 13,
+        title: "r-spring",
+        imgUrl: Images.springColor
+    },
+    {
+        id: 14,
+        title: "hooks",
+        imgUrl: Images.hooksColor
+    },
+    {
+        id: 15,
+        title: "nextjs",
+        imgUrl: Images.nextColor
+    },
+    {
+        id: 16,
+        title: "material",
+        imgUrl: Images.materialColor
+    }
+];
+
+
+ export const backend = [
+    {
+        id: 1,
+        title: "php",
+        imgUrl: Images.phpColor
+    },
+    {
+        id: 2,
+        title: "nodejs",
+        imgUrl: Images.nodeColor
+    },
+    {
+        id: 3,
+        title: "mongodb",
+        imgUrl: Images.mongodbColor
+    },
+    {
+        id: 4,
+        title: "express",
+        imgUrl: Images.expressColor
+    },
+    {
+        id: 5,
+        title: "mongoose",
+        imgUrl: Images.mongooseColor
+    },
+    {
+        id: 6,
+        title: "mysql",
+        imgUrl: Images.mysqlColor
+    },
+    {
+        id: 7,
+        title: "axios",
+        imgUrl: Images.axioslColor
+    },
+    {
+        id: 8,
+        title: "postgresql",
+        imgUrl: Images.postgresqlColor
+    }
+];

@@ -1,3 +1,37 @@
+
+// Import statements from icon folder
+import Html from '../assets/icons/html.png';
+import ant from '../assets/icons/ant.png';
+import antd from '../assets/icons/antd.png';
+import bootstrap from '../assets/icons/bootstrap.png';
+import CSSclr from '../assets/icons/css.png';
+import framer from '../assets/icons/framer.png';
+import javascriptclr from '../assets/icons/javascript.png';
+import next from '../assets/icons/next.png';
+import react from '../assets/icons/react.png';
+import reactQuery from '../assets/icons/react-query.png';
+import shadcn from '../assets/icons/shadcn.png';
+import tailwindCSS from '../assets/icons/tailwind-css.png';
+import three from '../assets/icons/threejs.png';
+import redux from '../assets/icons/redux.png';
+import swr from '../assets/icons/swr.png';
+import spring from '../assets/icons/spring.png';
+import hooks from '../assets/icons/hooks.png';
+import material from '../assets/icons/material.png';
+import php from '../assets/icons/php.png';
+import nodeclr from '../assets/icons/node-js.png';
+import mongodb from '../assets/icons/mongodb.png';
+import expressclr from '../assets/icons/express.png';
+import mongooseclr from '../assets/icons/mongoose.png';
+import mysqlClr from '../assets/icons/mysql.png';
+import postgresqlclr from '../assets/icons/postgresql.png';
+import axiosclr from '../assets/icons/axios.png';
+
+
+
+
+
+
 // Import statements
 import HTML from '../assets/images/html.png';
 import CSS from '../assets/images/css.png';
@@ -17,6 +51,7 @@ import PHP from '../assets/images/php.png';
 import reactImg from '../assets/images/react.png';
 import tailwind from '../assets/images/tailwind-css.png';
 import javascript from '../assets/images/javascript.png';
+import redisColor from '../assets/images/redis-1.png';
 import visualstudio from '../assets/images/visualstudio.png'
 import backIcon from '../assets/images/back.png';
 import switch_arrow from '../assets/images/switch_arrow.svg';
@@ -36,6 +71,38 @@ import intermiles from '../assets/images/intermiles.png';
 import saurav_pic from '../assets/images/saurav.jpeg';
 import ali_pic from '../assets/images/ali.jpeg';
 import ebaad_pic from '../assets/images/ebaad.jpeg';
+
+import bento1 from '../assets/images/bento-1.jpg';
+
+
+
+// Export statements 
+export const HtmlColor = Html;
+export const antColor = ant;
+export const andColor = antd;
+export const bootstrapColor = bootstrap;
+export const CSSColor = CSSclr;
+export const framerColor = framer;
+export const javascriptColor = javascriptclr;
+export const nextColor = next;
+export const reactColor = react;
+export const reactQueryColor = reactQuery;
+export const shadcnColor = shadcn;
+export const tailwindCSSColor = tailwindCSS;
+export const threeColor = three;
+export const reduxColor = redux;
+export const swrColor = swr;
+export const springColor = spring;
+export const hooksColor = hooks;
+export const materialColor = material
+export const phpColor = php;
+export const nodeColor = nodeclr;
+export const mongodbColor = mongodb;
+export const expressColor = expressclr;
+export const mongooseColor = mongooseclr;
+export const mysqlColor = mysqlClr;
+export const postgresqlColor = postgresqlclr;
+export const axioslColor = axiosclr;
 
 
 
@@ -59,6 +126,7 @@ export const PHPImg = PHP;
 export const ReactImg = reactImg;
 export const TailwindImg = tailwind;
 export const JavascriptImg = javascript;
+export const RedisColor = redisColor
 export const Visualstudio = visualstudio;
 export const BackIcon = backIcon;
 export const Switch_arrow = switch_arrow;
@@ -80,3 +148,6 @@ export const Intermiles = intermiles;
 export const Saurav_pic = saurav_pic;
 export const Ali_pic = ali_pic;
 export const Ebaad_pic = ebaad_pic;
+
+
+export const Bento1 = bento1
