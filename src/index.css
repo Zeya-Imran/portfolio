@@ -407,12 +407,11 @@ button:hover {
 
 .bento {
 	.bento-grid {
-    border: #ffc107;
 		display:grid;
 		grid-gap:30px;
 		grid-template-columns: repeat(5, 1fr);
-		grid-template-rows: repeat(4, 1fr);
-		height:960px;
+		grid-template-rows: repeat(2, 1fr);
+		height:480px;
 		@media(max-width:1024px){
 			grid-template-rows: repeat(8, 1fr);
 		}
@@ -422,7 +421,7 @@ button:hover {
 			gap:30px;
 			height:auto;
 		}
-		.bento-item {
+  	.bento-item {
 			padding:30px;
 			background-color: #2b2b38;
 			border-radius:15px;
@@ -516,7 +515,7 @@ button:hover {
 
 /* tooltip css */
 
-.tooltip-container {
+/* .tooltip-container {
   position: relative;
 }
 
@@ -536,5 +535,5 @@ button:hover {
 
 .tooltip-container:hover .tooltip-content {
   visibility: visible;
-}
+} */
 

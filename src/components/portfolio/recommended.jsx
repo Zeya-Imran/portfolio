@@ -26,7 +26,7 @@ const Recommendations = () => {
 
 
     return (
-        <section className="flex flex-col gap-y-4 overflow-hidden">
+        <section className="flex flex-col gap-y-4 overflow-hidden snap-center">
             <div className='flex items-end gap-5'>
                 <motion.h1 className='text-2xl md:text-4xl text-[#ddd] palanquin-semibold tracking-wide'
                     initial={{ x: -160, opacity: 0 }}

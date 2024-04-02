@@ -12,7 +12,7 @@ const Portfolio = () => {
 
         <LayoutSection>
             <h1 className='text-[#1e1e38] absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[70%] text-[15vw] montserrat-bold z-0'>Portfolio</h1>
-            <section className='min-h-screen w-11/12 md:w-4/5 mx-auto flex flex-col gap-6 md:gap-8 z-20'>
+            <section className='min-h-screen w-11/12 md:w-4/5 mx-auto flex flex-col gap-6 md:gap-8 z-20 snap-center'>
 
                 <motion.h1 className='text-2xl md:text-4xl text-[#ddd] palanquin-semibold tracking-wide'
                     initial={{ x: -60, opacity: 0 }}
