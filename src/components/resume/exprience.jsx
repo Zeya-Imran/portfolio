@@ -15,7 +15,7 @@ const Exprience = ()=>{
                         <Divider type="horzontal" style={{ borderColor: 'rgb(221 221 221 / 0.4)' }} />
                         <div className="text-justify"> <h1>{item.title} </h1> <p>{item.description}</p> </div>
                         <Divider type="horzontal" style={{ borderColor: 'rgb(221 221 221 / 0.4)' }} />
-                        <div className="flex justify-between"><p className="flex items-center gap-2"><FaChalkboardUser style={{fontSize:'24px'}} /> role</p> <p>Team-collabrator</p></div>
+                        <div className="flex justify-between"><p className="flex items-center gap-2"><FaChalkboardUser style={{fontSize:'24px'}} /> Role</p> <p>Team-collabrator</p></div>
                     </div>
                 ))
             }
