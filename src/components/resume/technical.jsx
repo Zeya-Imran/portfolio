@@ -1,41 +1,14 @@
 import { motion } from "framer-motion"
-import { FaArrowTurnDown } from "react-icons/fa6";
 import { frontend, backend, devops, version, managment} from '../../constants';
 import { Tooltip} from 'antd';
+import TitleText from "./titletext";
 
 const Technical = ()=>{
 
     return(
         <section id="projects" className="bento w-11/12 md:w-4/5 mx-auto flex flex-col gap-y-5 overflow-hidden">
             {/* heading text */}
-            <div className='flex items-end gap-5 justify-center mb-5'>
-                <motion.div
-                    initial={{ opacity: 0, x: 30, y: -12 }}
-                    whileInView={{ opacity: 1, x: 0, y: 0 }}
-                    transition={{ duration: 1.5, }}
-                    viewport={{ once: true }}
-                >
-                    <FaArrowTurnDown style={{ color: 'white', fontSize: '24px' }} className='-scale-x-100 translate-y-2' />
-                </motion.div>
-
-      
-                <motion.h1 className='text-2xl md:text-4xl text-[#ddd] palanquin-semibold tracking-wide'
-                    initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
-                    transition={{ duration: 1, }}
-                    viewport={{ once: true }}
-
-                >About My Skills</motion.h1>
-              
-                <motion.div
-                    initial={{ opacity: 0, x: -30, y: -12 }}
-                    whileInView={{ opacity: 1, x: 0, y: 0 }}
-                    transition={{ duration: 1.5, }}
-                    viewport={{ once: true }}
-                >
-                    <FaArrowTurnDown style={{ color: 'white', fontSize: '24px' }} className='translate-y-2' />
-                </motion.div>
-            </div>
+            <TitleText title="About My Skills"/>
 
             {/* skill icon and design */}
             <div className="bento-grid text-[#848484]">
@@ -45,18 +18,19 @@ const Technical = ()=>{
                     initial={{x:-100,opacity:0}}
                     whileInView={{x:0,opacity:1}}
                     transition={{delay: 0.2,duration:1.2}}
+                    viewport={{ once: true }}
                 >
                     {
                         frontend.map((item, i) => {
                             return (
                                <motion.div className='flex  flex-col items-center gap-2  w-16 h-16 mx-auto'
-                                         initial={{opacity:0}}
-                                         whileInView={{opacity:1}}
-                                         transition={{duration:2}}
-                                    >
-                                        <img src={item.imgUrl} alt={i} />
-                                        <p>{item.title}</p>
-                                    </motion.div>
+                                    initial={{opacity:0}}
+                                    whileInView={{opacity:1}}
+                                    transition={{duration:2}}
+                                >
+                                    <img src={item.imgUrl} alt={i} />
+                                    <p>{item.title}</p>
+                                </motion.div>
                             )
                         })
                     }
@@ -68,6 +42,7 @@ const Technical = ()=>{
                     initial={{x:80,opacity:0}}
                     whileInView={{x:0,opacity:1}}
                     transition={{delay: 0.2,duration:2}}
+                    viewport={{ once: true }}
                 >
                     {
                         backend.map((item, i) => {
@@ -91,6 +66,7 @@ const Technical = ()=>{
                     initial={{y:-50,opacity:0,x:50}}
                     whileInView={{y:0,opacity:1,x:0}}
                     transition={{delay: 0.2,duration:1}}
+                    viewport={{ once: true }}
                 >
                     {
                         version.map((item, i) => {
@@ -114,6 +90,7 @@ const Technical = ()=>{
                     initial={{x:-50,opacity:0,y:50}}
                     whileInView={{x:0,opacity:1,y:0}}
                     transition={{delay: 0.2,duration:1}}
+                    viewport={{ once: true }}
                 >
                     {
                         managment.map((item, i) => {
@@ -137,6 +114,7 @@ const Technical = ()=>{
                     initial={{opacity:0,x:-50}}
                     whileInView={{x:0,y:0,opacity:1,}}
                     transition={{delay: 0.2,duration:2}}
+                    viewport={{ once: true }}
                 >
                     {
                         devops.map((item, i) => {

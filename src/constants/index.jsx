@@ -78,6 +78,61 @@ export const recommendations = [
    
  ]
 
+ export const experience = [
+    {
+        id: 1,
+        title: "SportsUncle",
+        url: "https://sportsuncle.com",
+        description: "Established in 1996, Boxed Greens has been proudly delivering certified organic produce and groceries to our residential and business customers for nearly 30-years. Because we take advantage of seasonal crops and source much of our produce from local farms, we are able to ensure freshness and quality with every order. It also allows us to carry a diverse and fun selection of delicious fruits and vegetables year-round..",
+        imgUrl: Images.Techsunset,
+        dates: "Feb-2022 -Dec-2023"
+
+    },
+    {
+        id: 2,
+        title: "Boxed Green",
+        url: "https://boxedgreens.com",
+        description: "Established in 1996, Boxed Greens has been proudly delivering certified organic produce and groceries to our residential and business customers for nearly 30-years. Because we take advantage of seasonal crops and source much of our produce from local farms, we are able to ensure freshness and quality with every order. It also allows us to carry a diverse and fun selection of delicious fruits and vegetables year-round.",
+        imgUrl: Images.Techsunset,
+        dates: "Feb-2022 -Dec-2023"
+    },
+    {
+        id: 3,
+        title: "Green Lane",
+        url: "https://www.greenlanedelivery.com",
+        description: "Established in 1996, Boxed Greens has been proudly delivering certified organic produce and groceries to our residential and business customers for nearly 30-years. Because we take advantage of seasonal crops and source much of our produce from local farms, we are able to ensure freshness and quality with every order. It also allows us to carry a diverse and fun selection of delicious fruits and vegetables year-round.",
+        imgUrl: Images.Techsunset,
+        dates: "Feb-2022 -Dec-2023"
+    },
+    {
+        id: 4,
+        title: "Tripmore",
+        url: "https://tripmore.in",
+        description: "Established in 1996, Boxed Greens has been proudly delivering certified organic produce and groceries to our residential and business customers for nearly 30-years. Because we take advantage of seasonal crops and source much of our produce from local farms, we are able to ensure freshness and quality with every order. It also allows us to carry a diverse and fun selection of delicious fruits and vegetables year-round.",
+        imgUrl: Images.Techsunset,
+        dates: "Feb-2022 -Dec-2023"
+    },
+    {
+        id: 5,
+        title: "Franchise Direct",
+        url: "https://www.franchisedirect.com",
+        description: "Established in 1996, Boxed Greens has been proudly delivering certified organic produce and groceries to our residential and business customers for nearly 30-years. Because we take advantage of seasonal crops and source much of our produce from local farms, we are able to ensure freshness and quality with every order. It also allows us to carry a diverse and fun selection of delicious fruits and vegetables year-round.",
+        imgUrl: Images.Techsunset,
+        dates: "Feb-2022 -Dec-2023"
+    },
+    {
+        id: 6,
+        title: "intermiles",
+        url: "https://www.intermiles.com",
+        description: "Established in 1996, Boxed Greens has been proudly delivering certified organic produce and groceries to our residential and business customers for nearly 30-years. Because we take advantage of seasonal crops and source much of our produce from local farms, we are able to ensure freshness and quality with every order. It also allows us to carry a diverse and fun selection of delicious fruits and vegetables year-round.",
+        imgUrl: Images.Techsunset,
+        dates: "Feb-2022 -Dec-2023"
+    }
+   
+   
+ ]
+
+
  export const frontend = [
     {
         id: 1,
@@ -136,8 +191,8 @@ export const recommendations = [
     },
     {
         id: 12,
-        title: "threejs",
-        imgUrl: Images.threeColor
+        title: "jquery",
+        imgUrl: Images.jqueryolor
     },
     {
         id: 13,
@@ -160,7 +215,6 @@ export const recommendations = [
         imgUrl: Images.materialColor
     }
 ];
-
 
  export const backend = [
     {
@@ -270,7 +324,6 @@ export const version = [
         imgUrl: Images.bitbucketColor
     }
 ];
-
 
 export const managment = [
     {

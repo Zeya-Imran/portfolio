@@ -15,7 +15,7 @@ import react from '../assets/icons/react.png';
 import reactQuery from '../assets/icons/react-query.png';
 import shadcn from '../assets/icons/shadcn.png';
 import tailwindCSS from '../assets/icons/tailwind-css.png';
-import three from '../assets/icons/threejs.png';
+import jquery from '../assets/icons/threejs.png';
 import redux from '../assets/icons/redux.png';
 import swr from '../assets/icons/swr.png';
 import spring from '../assets/icons/spring.png';
@@ -93,10 +93,12 @@ import greenlanedelivery from '../assets/images/greenlanedelivery.png';
 import tripmore from '../assets/images/tripmore.png';
 import franchisedirect from '../assets/images/franchisedirect.png';
 import intermiles from '../assets/images/intermiles.png';
+import techsunset from '../assets/images/techsunset-logo.png';
 // recommedation section images
 import saurav_pic from '../assets/images/saurav.jpeg';
 import ali_pic from '../assets/images/ali.jpeg';
 import ebaad_pic from '../assets/images/ebaad.jpeg';
+
 
 import bento1 from '../assets/images/bento-1.jpg';
 
@@ -117,7 +119,7 @@ export const reactColor = react;
 export const reactQueryColor = reactQuery;
 export const shadcnColor = shadcn;
 export const tailwindCSSColor = tailwindCSS;
-export const threeColor = three;
+export const jqueryolor = jquery;
 export const reduxColor = redux;
 export const swrColor = swr;
 export const springColor = spring;
@@ -186,7 +188,6 @@ export const Visualstudio = visualstudio;
 export const BackIcon = backIcon;
 export const Switch_arrow = switch_arrow;
 
-
 //hero images
 export const Hero_pic_png = hero_pic_png;
 export const Hero_pic_jpg = hero_pic_jpg;
@@ -198,6 +199,7 @@ export const Tripmore = tripmore;
 export const Greenlanedelivery = greenlanedelivery;
 export const Franchisedirect = franchisedirect;
 export const Intermiles = intermiles;
+export const Techsunset = techsunset
 
 // recommedation section images
 export const Saurav_pic = saurav_pic;
