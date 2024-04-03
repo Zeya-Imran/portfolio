@@ -1,4 +1,26 @@
 import * as Images from '../utils';
+export const menu = [
+    {
+        id:1,
+        title:"home",
+        url:"/"
+    },
+    {
+        id:1,
+        title:"resume",
+        url:"/resume"
+    },
+    {
+        id:1,
+        title:"projects",
+        url:"/projects"
+    },
+    {
+        id:1,
+        title:"contact",
+        url:"/contact"
+    }
+]
 export const recommendations = [
     {
         id: 1,
@@ -132,7 +154,6 @@ export const recommendations = [
    
  ]
 
-
  export const frontend = [
     {
         id: 1,
@@ -186,7 +207,7 @@ export const recommendations = [
     },
     {
         id: 11,
-        title: "r-query",
+        title: "swr",
         imgUrl: Images.reactQueryColor
     },
     {

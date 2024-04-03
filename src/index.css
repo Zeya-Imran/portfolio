@@ -182,11 +182,11 @@
       }
   }
 
-@layer components {
+  @layer components {
     .heroButton{
-        @apply px-2 py-1 md:px-6  md:py-2 border border-[#242424] rounded-full uppercase text-sm tracking-widest text-gray-300 transition-all hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40
+        @apply px-2 py-1 md:px-6  md:py-2 border border-[#242424] rounded-full uppercase text-sm tracking-widest text-gray-300 transition-all hover:border-[#F7AB0A]/80 hover:text-[#F7AB0A]/80
     }
-}
+  }
 
 @layer components{
     .icon-hover{
