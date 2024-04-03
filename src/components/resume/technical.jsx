@@ -26,7 +26,7 @@ const Technical = ()=>{
                                <motion.div className='flex  flex-col items-center gap-2  w-16 h-16 mx-auto'
                                     initial={{opacity:0}}
                                     whileInView={{opacity:1}}
-                                    transition={{duration:2}}
+                                    transition={{duration:.5}}
                                 >
                                     <img src={item.imgUrl} alt={i} />
                                     <p>{item.title}</p>
@@ -50,7 +50,7 @@ const Technical = ()=>{
                               <motion.div className='flex  flex-col items-center gap-0  w-16 h-16 mx-auto'
                                       initial={{opacity:0}}
                                       whileInView={{opacity:1}}
-                                      transition={{duration:2}}
+                                      transition={{duration:.5}}
                                     >
                                         <img src={item.imgUrl} alt={i} />
                                         <p>{item.title}</p>
@@ -71,10 +71,10 @@ const Technical = ()=>{
                     {
                         version.map((item, i) => {
                             return (
-                              <motion.div className='flex  flex-col items-center gap-0  w-16 h-16'
+                              <motion.div className='flex  flex-col items-center gap-0  w-16 h-16 mx-auto'
                                          initial={{opacity:0}}
                                          whileInView={{opacity:1}}
-                                         transition={{duration:2}}
+                                         transition={{duration:.5}}
                                     >
                                         <img src={item.imgUrl} alt={i} />
                                         <p>{item.title}</p>
@@ -95,10 +95,10 @@ const Technical = ()=>{
                     {
                         managment.map((item, i) => {
                             return (
-                            <motion.div className='flex flex-col items-center gap-0  w-16 h-16 '
+                            <motion.div className='flex flex-col items-center gap-0  w-16 h-16 mx-auto'
                                      initial={{opacity:0}}
                                      whileInView={{opacity:1}}
-                                     transition={{duration:2}}
+                                     transition={{duration:.5}}
                                     >
                                         <img src={item.imgUrl} alt={i} />
                                         <p>{item.title}</p>
@@ -122,7 +122,7 @@ const Technical = ()=>{
                                <motion.div className='flex flex-col items-center gap-0  w-16 h-16 mx-auto'
                                     initial={{opacity:0}}
                                     whileInView={{opacity:1}}
-                                    transition={{duration:2}}
+                                    transition={{duration:.5}}
                                     >
                                         <img src={item.imgUrl} alt={i} />
                                         <p>{item.title}</p>

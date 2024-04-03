@@ -3,6 +3,7 @@
  - Export statements  from icon folder
  - front-end
 */
+import mzi from '../assets/icons/mzj.png';
 import Html from '../assets/icons/html.png';
 import ant from '../assets/icons/ant.png';
 import antd from '../assets/icons/antd.png';
@@ -107,6 +108,7 @@ import bento1 from '../assets/images/bento-1.jpg';
  - Export statements  from icon folder
  - front-end
 */
+export const brandLogo  = mzi;
 export const HtmlColor = Html;
 export const antColor = ant;
 export const andColor = antd;

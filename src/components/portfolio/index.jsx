@@ -37,7 +37,7 @@ const Portfolio = () => {
                         <p>Completed Projects</p>
                     </div>
                     <div className="ex-box ">
-                        <h1>104 </h1>
+                        <h1>104 +</h1>
                         <p>Satisfied Customer</p>
                     </div>
                     <div className="ex-box ">
