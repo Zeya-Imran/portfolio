@@ -187,13 +187,17 @@
         @apply px-2 py-1 md:px-6  md:py-2 border border-[#242424] rounded-full uppercase text-sm tracking-widest text-gray-300 transition-all hover:border-[#F7AB0A]/80 hover:text-[#F7AB0A]/80
     }
   }
+  @layer components {
+    .downButton{
+        @apply px-2 py-1 md:px-6  md:py-2 border border-[#848484] rounded-full uppercase text-sm tracking-widest text-gray-300 transition-all hover:border-[#F7AB0A]/80 hover:text-[#F7AB0A]/80 
+    }
+  }
 
 @layer components{
     .icon-hover{
-        @apply hover:text-[#ffc107]/80
+        @apply hover:text-[#F7AB0A]/80
     }
 }
-
 
 .ant-input::placeholder {
     color: #999; /* Change the color to your desired color */

@@ -69,7 +69,7 @@ const Portfolio = () => {
                         projects.map((item, i) => {
                             // console.log(item.url);
                             return (
-                                <Link href={item.url} key={i}>
+                                <Link to={item.url} key={i}>
                                     <motion.div className='projects-box-wraper flex flex-col gap-5 relative bg-[#2b2b38] mb-5'
                                         initial="hidden"
                                         animate="visible"
