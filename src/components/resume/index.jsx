@@ -1,4 +1,5 @@
 import LayoutSection from "../shared/layout"
+import Education from "./education";
 import Exprience from "./exprience";
 
 
@@ -8,6 +9,7 @@ const Resume = ()=>{
         <LayoutSection>
           <Technical />
           <Exprience />
+          <Education />
         </LayoutSection>
     )
 }

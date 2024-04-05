@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { menu } from '../../../constants';
 import { brandLogo } from '../../../utils';
 import { GithubFilled, LinkedinFilled, TwitterCircleFilled, MenuOutlined, CloseOutlined } from '@ant-design/icons';
@@ -21,7 +21,7 @@ const Navbar = () => {
             <Link to="/"><img src={brandLogo} alt="" width={72} height={72} className='-mt-1' /></Link>
             <div>
               {menu.map((item, i) => (
-                <Link key={i} to={item.url} className='heroButton'>{item.title}</Link>
+               <NavLink key={i} to={item.url} className='heroButton' activeClassName='active'>{item.title}</NavLink>
               ))}
             </div>
           </div>
@@ -45,15 +45,22 @@ const Navbar = () => {
         <div className={`w-11/12 md:w-4/5 mx-auto transition-all ease-in-out duration-500 ${menuOpen ? 'block' : 'hidden'}`}>
           <div className='flex flex-col text-center gap-5 py-8 justify-between items-center'>
             {/* Menu items */}
-            <div className={`md:hidden flex flex-col  ${menuOpen ? 'block' : 'hidden'}`}>
+            <div className={`md:hidden gap-2 flex flex-col  ${menuOpen ? 'block' : 'hidden'}`}>
               {menu.map((item, i) => (
                 <Link key={i} to={item.url} className='heroButton'>{item.title}</Link>
               ))}
             </div>
-            <div className='flex gap-5'>
+            <div className='flex gap-5 flex-col'>
+              <div className='flex gap-5'>
               <Link to="https://www.linkedin.com/in/zeya-imran/"><LinkedinFilled className='text-zinc-500 icon-hover' style={{ fontSize: '24px' }} /></Link>
               <Link to="https://github.com/Zeya-Imran"><GithubFilled className='text-zinc-500 icon-hover' style={{ fontSize: '24px' }} /></Link>
               <Link to="https://www.linkedin.com/in/zeya-imran/"><TwitterCircleFilled className='text-zinc-500 icon-hover' style={{ fontSize: '24px' }} /></Link>
+              </div>
+
+              <div className="text-[#848484] flex items-center gap-2 px-2 py-1 downButton">
+                <MdDownloadForOffline className='text-zinc-500 icon-hover' style={{ fontSize: '24px' }} />resume
+            </div>
+
             </div>
           </div>
 

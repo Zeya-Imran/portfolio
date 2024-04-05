@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import { FaChalkboardUser } from "react-icons/fa6";
 import { Divider } from 'antd';
 import { experience } from "../../constants"
@@ -10,13 +11,16 @@ const Exprience = ()=>{
            <div className="grid md:grid-cols-3 grid-cols-1 gap-5">
             {
                 experience.map((item,i)=>(
-                    <div className="flex flex-col gap-4 resume-ex-box">
+                    <motion.div className="flex flex-col gap-4 resume-ex-box"
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    >
                         <div className="flex justify-between ">{item.dates} <img src={item.imgUrl} alt={item.id}  width={80}/></div>
-                        <Divider type="horzontal" style={{ borderColor: 'rgb(221 221 221 / 0.4)' }} />
+                        <Divider type="horzontal" style={{ borderColor: 'rgb(221 221 221 / 0.2)' }} />
                         <div className="text-justify"> <h1>{item.title} </h1> <p>{item.description}</p> </div>
-                        <Divider type="horzontal" style={{ borderColor: 'rgb(221 221 221 / 0.4)' }} />
+                        <Divider type="horzontal" style={{ borderColor: 'rgb(221 221 221 / 0.2)' }} />
                         <div className="flex justify-between"><p className="flex items-center gap-2"><FaChalkboardUser style={{fontSize:'24px'}} /> Role</p> <p>Team-collabrator</p></div>
-                    </div>
+                    </motion.div>
                 ))
             }
            </div>

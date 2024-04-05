@@ -4,8 +4,10 @@ import { Hero_pic_jpg } from '../../utils'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import { motion } from 'framer-motion'
 import About from "./bio"
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import { Image } from "antd"
+import { menu } from "../../constants"
+
 
 const HeroSection = () => {
       const [text] = useTypewriter({
@@ -44,10 +46,17 @@ const HeroSection = () => {
                whileInView={{opacity: 1}}
                transition={{duration: 1}}
             >
-              <button><Link to="/" className="heroButton">Home</Link></button>
+              {/* <button><Link to="/" className="heroButton ">Home</Link></button>
               <button><Link to="/resume" className="heroButton">Resume</Link></button>
               <button><Link to="/projects" className="heroButton">Portfolio</Link></button>
-              <button><Link to="/contact" className="heroButton">Contact</Link></button>
+              <button><Link to="/contact" className="heroButton">Contact</Link></button> */}
+
+            <div>
+              {menu.map((item, i) => (
+
+               <NavLink key={i} to={item.url} className='heroButton' activeClassName='active'>{item.title}</NavLink>
+              ))}
+            </div>
             </motion.div>
           </div>
           <About />

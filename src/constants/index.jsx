@@ -1,4 +1,5 @@
 import * as Images from '../utils';
+
 export const menu = [
     {
         id:1,
@@ -368,3 +369,34 @@ export const managment = [
         imgUrl: Images.asanaColor
     }
 ];
+
+export const education = [
+    {
+      id: 1,
+      institution: "Wap Institute - (an online institute)",
+      degree: "Advance Diploma in software Engineering",
+      year: "2018 - 2022",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum libero ac elit placerat, et vestibulum magna tristique."
+    },
+    {
+      id: 2,
+      institution: "ABC College",
+      degree: "Master in Computer Application",
+      year: "2014 - 2018",
+      description: "Sed ullamcorper nulla non massa pulvinar, sit amet lobortis risus interdum. Donec scelerisque purus ut ultricies varius."
+    }
+    // {
+    //     id: 2,
+    //     institution: "ABC College",
+    //     degree: "",
+    //     year: "2014 - 2018",
+    //     description: "Sed ullamcorper nulla non massa pulvinar, sit amet lobortis risus interdum. Donec scelerisque purus ut ultricies varius."
+    //   },
+    //   {
+    //     id: 2,
+    //     institution: "ABC College",
+    //     degree: "High School Diploma",
+    //     year: "2014 - 2018",
+    //     description: "Sed ullamcorper nulla non massa pulvinar, sit amet lobortis risus interdum. Donec scelerisque purus ut ultricies varius."
+    //   }
+  ];

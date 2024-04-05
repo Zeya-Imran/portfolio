@@ -188,6 +188,11 @@
     }
   }
   @layer components {
+    .heroButton.active{
+      @apply px-2 py-1 md:px-6  md:py-2 border border-[#848484] rounded-full uppercase text-sm tracking-widest text-gray-300 transition-all hover:border-[#F7AB0A]/80 hover:text-[#F7AB0A]/80 
+    }
+  }
+  @layer components {
     .downButton{
         @apply px-2 py-1 md:px-6  md:py-2 border border-[#848484] rounded-full uppercase text-sm tracking-widest text-gray-300 transition-all hover:border-[#F7AB0A]/80 hover:text-[#F7AB0A]/80 
     }
@@ -203,7 +208,7 @@
     color: #999; /* Change the color to your desired color */
     
   }
-  
+ 
 
 .ex-box{
     display: flex;
@@ -398,8 +403,6 @@ button:hover {
   color: #848484;
 }
 .resume-ex-box h1{
-  font-family: palanquin-medium;
-  font-weight: 500;
   font-size: 20px;
   color: rgb(221 221 221 / 0.8);
 }
