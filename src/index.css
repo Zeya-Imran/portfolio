@@ -343,8 +343,6 @@
   border: 2px solid slateblue;
   object-fit: cover;
 }
-
-
 .re-main {
   display: flex;
   transition: transform 0.5s ease; /* Smooth transition for sliding effect */
