@@ -88,7 +88,7 @@ import greenlanedelivery from "../assets/images/greenlanedelivery.png";
 import tripmore from "../assets/images/tripmore.png";
 import franchisedirect from "../assets/images/franchisedirect.png";
 import intermiles from "../assets/images/intermiles.png";
-import techsunset from "../assets/images/techsunset-logo.svg";
+import techsunset from "../assets/images/techsunset-logo.png";
 // projects images for TechChefz
 import ReStore from "../assets/images/RE-store.png";
 import ReAom from "../assets/images/RE-aom.png";
